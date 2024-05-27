@@ -1,0 +1,78 @@
+/*
+button {
+    margin-top: 1em;
+    padding: 1em;
+
+    background-color: darkslategray;
+    color: wheat;
+
+    border-radius: 1em;
+    border: solid thin;
+    border-color: wheat;
+
+    font-size: large;
+}
+*/
+
+button {
+    margin-top: 1em;
+    padding: 1em;
+
+    background-color: wheat;
+    color: darkslategray;
+
+    border-radius: 2em;
+    border: none;
+
+    font-size: large;
+
+    margin-right: 1em;
+
+    border: solid wheat;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 .2em wheat);
+    box-shadow: inset wheat 0 0 1em;
+}
+
+button:active {
+    background-color: darkslategray;
+    color: wheat;
+}
+
+.button2 {
+    background: none;
+    color: wheat;
+    border: solid wheat;
+}
+
+input {
+    padding: .5em;
+    width: 25em;
+    
+    color: wheat;
+    
+    background: none;
+    border-radius: 1em;
+    border: solid;
+    border-color: wheat;
+    box-shadow: inset rgba(0, 0, 0, 0.363) 0 0 .4em;
+    
+    font-size: large;
+    
+    margin: 0 auto;
+}
+
+input:focus {
+    border: double;
+}
+
+.countryInfo {
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    margin-left: 1em;
+}
