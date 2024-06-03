@@ -1,8 +1,13 @@
-# React + Vite
+# Geo Questions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web app is designed to practice the use of REST API and provides an interactive quiz-type game. The game fetches information from the [REST Countries API](https://gitlab.com/restcountries/restcountries) and presents questions to the user about different countries.
 
-Currently, two official plugins are available:
+Play it [here!](https://arthur-lc.github.io/geo-questions/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Tecnologies used
+- Javascript
+- HTML
+- CSS
+- React.js
+- vite
