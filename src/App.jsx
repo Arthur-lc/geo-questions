@@ -79,16 +79,19 @@ function App() {
       <button className='button2' onClick={() => location.reload()}>Next Question</button>
 
       {state == 2 && (
-        <CountryInfo country={question.country}/>
+        <h3 style={{color: "greenyellow"}}>Congratulations!!</h3>
       )}
-
       {state == 1 && (
         <div>
-          <h1>Wrong</h1>
-          <div>Try again</div>
+          <h1 style={{color: "brown"}}>Wrong</h1>
+          <div style={{color: "greenyellow"}}> the rigth answer was: <b>{question.answer}</b></div>
         </div>
       )}
 
+
+      {state != 0 && (
+        <CountryInfo country={question.country}/>
+      )}
     </>
   )
 }
