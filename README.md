@@ -4,6 +4,7 @@ This web app is designed to practice the use of REST API and provides an interac
 
 Play it [here!](https://arthur-lc.github.io/geo-questions/)
 
+![image](https://github.com/Arthur-lc/geo-questions/assets/63363544/c6a9a04f-8f82-4199-a05a-37627d45ff88)
 
 ## Tecnologies used
 - Javascript
